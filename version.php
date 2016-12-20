@@ -1,5 +1,5 @@
 <?php
-// This file is part of ResetOpCache for Moodle - http://moodle.org/
+// This file is part of ResetOpCache plugin for Moodle - http://moodle.org/
 //
 // ResetOpCache is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -18,7 +18,7 @@
  * Version information for ResetOpCache.
  *
  * @package    local_resetopcache
- * @copyright  2014-2015 TNG Consulting Inc. - www.tngcosulting.ca
+ * @copyright  2014-2016 TNG Consulting Inc. - www.tngconsulting.ca
  * @author     Michael Milette
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -26,8 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'local_resetopcache'; // To check on upgrade, that module sits in correct place.
-$plugin->version   = 2015110100;        // The current module version (Date: YYYYMMDDXX).
-$plugin->requires  = 2012062500;        // Requires Moodle version 2.5.
-$plugin->release   = '0.1 (Build: '.$plugin->version.')';
-$plugin->maturity  = MATURITY_ALPHA;
+$plugin->version   = 2015110100;           // The current module version (Date: YYYYMMDDXX).
+$plugin->requires  = 2013040500;           // Requires Moodle version 2.5.
+$plugin->release   = '0.2';
+$plugin->maturity  = MATURITY_BETA;
 $plugin->cron      = 0;

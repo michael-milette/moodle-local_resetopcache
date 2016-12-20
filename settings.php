@@ -1,5 +1,5 @@
 <?php
-// This file is part of ResetOpCache for Moodle - http://moodle.org/
+// This file is part of ResetOpCache plugin for Moodle - http://moodle.org/
 //
 // ResetOpCache is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -17,8 +17,8 @@
 /**
  * Adds Reset OpCache link to the Site Administration > Server menu. There are no settings for this plugin.
  *
- * @package    local_ResetOpCache
- * @copyright  2014-2015 TNG Consulting Inc. - www.tngcosulting.ca
+ * @package    local_resetopcache
+ * @copyright  2014-2016 TNG Consulting Inc. - www.tngconsulting.ca
  * @author     Michael Milette
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */

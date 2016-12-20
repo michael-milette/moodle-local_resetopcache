@@ -18,19 +18,21 @@
  * Strings for component 'local_resetopcache', language 'en', branch 'MOODLE_20_STABLE'
  *
  * @package   local_resetopcache
- * @copyright  2010, 2014-2015 TNG Consulting Inc. - www.tngcosulting.ca
- * @author     Michael Milette
+ * @copyright 2014-2016 TNG Consulting Inc. - www.tngconsulting.ca
+ * @author    Michael Milette
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Reset OPCache';
-$string['pluginname_help'] = 'Resets the entire PHP opcode cache for your Moodle website... | Resets the entire PHP opcode cache. After executing, all PHP scripts will be reloaded and reparsed the next time they are hit.';
-$string['credit'] = 'Michael Milette, <a href="http://www.tngconsulting.ca/">TNG Consulting Inc.</a>';
+$string['pluginname_help'] = 'Resets the entire PHP opcode cache for your Moodle website... | Resets the entire PHP opcode cache. After executing, all PHP scripts will be reloaded and re-parsed the next time they are hit.';
+$string['credit'] = 'Michael Milette - <a href="http://www.tngconsulting.ca/">TNG Consulting Inc.</a>';
+
 $string['title'] = 'Reset OPcache';
 $string['heading'] = 'Reset OPCache';
 $string['resetopcache'] = 'Reset OPCache and purge caches';
 $string['noopcache'] = '<strong>Note:</strong> PHP OPcache not currently enabled on this web server and therefore cannot not be cleared.';
-$string['purgecachesconfirm'] = 'Reset OPcache also deletes the entire PHP opcode cache for your webserver. After executing, PHP scripts will be reloaded and reparsed automatically the next time they are accessed.';
+$string['purgecachesconfirm'] = 'Reset OPcache also deletes the entire PHP opcode cache for your web server. After executing, PHP scripts will be reloaded and re-parsed automatically the next time they are accessed.';
 $string['areyousure'] = 'Are you sure you want to purge the Moodle cache and reset the PHP OPcache?';
+$string['onlyavailable'] = 'This feature is only available for site administrators.';
